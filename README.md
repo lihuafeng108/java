@@ -1,15 +1,15 @@
 # java
 java学习笔记
 
-Java相关网站：
-Oracle英文：https://www.oracle.com/index.html
-Oracle中文：http://www.oracle.com/cn/index.html
-Java中文：https://www.java.com/zh_CN/
+    Java相关网站：
+    Oracle英文：https://www.oracle.com/index.html
+    Oracle中文：http://www.oracle.com/cn/index.html
+    Java中文：https://www.java.com/zh_CN/
 
 Java 平台有三个版本，这使软件开发人员、服务提供商和设备生产商可以针对特定的市场进行开发。
-JavaME（Java Micro Edition，Java2平台的微型版），应用于移动、无线及有限资源的环境
-JavaSE（Java Standard Edition，Java 2平台的标准版），应用于桌面环境，它是其它Java平台的基础 C/S
-JavaEE（Java Enterprise Edition，Java 2平台的企业版），应用于基于Java的应用服务器 B/S
+    JavaME（Java Micro Edition，Java2平台的微型版），应用于移动、无线及有限资源的环境
+    JavaSE（Java Standard Edition，Java 2平台的标准版），应用于桌面环境，它是其它Java平台的基础 C/S
+    JavaEE（Java Enterprise Edition，Java 2平台的企业版），应用于基于Java的应用服务器 B/S
 
 一、环境搭建
     1.1 获取并安装JDK
@@ -30,4 +30,12 @@ JavaEE（Java Enterprise Edition，Java 2平台的企业版），应用于基于
     1）新建变量：JAVA_HOME，变量值：C:\Program Files\Java\jdk1.8.0_201（安装在自己电脑的目录）
     2）path变量添加：%JAVA_HOME%\bin
     3）新建变量：classpath，变量值：.;%JAVA_HOME%\lib\rt.jar;%JAVA_HOME%\lib\tools.jar
+    配置完之后，重新打开一个命令行CMD（需要重新加载一下环境变量）,输入javac，看配置的路径是否生效。
+    
+    1.2 安装Android Studio
+    官网:https://developer.android.google.cn/
+    安装的过程就出现乱码了（无力吐槽，只能凭感觉乱点了）。
+    在setting->Appearance & Behavior->System Setting->Android SDK，可以看到是否已经安装了sdk
+    
+    
     
